@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rumus_bangun_ajin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HitungPersegiPanjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungBalokActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungLingkaranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungBolaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".HitungTabungActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungKerucutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PilihBangunRuangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PilihBangunDatarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HitungPersegiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungSegitigaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungTrapesiumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungLayangLayangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungBelahKetupatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungKubusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungJajarGenjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HitungLimasSegiEmpatActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
